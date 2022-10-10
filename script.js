@@ -48,6 +48,7 @@ function reveal2() {
 }
 
 window.addEventListener("scroll", reveal2);
+var abcd = 0;
 function reveal3() {
   var reveals3 = document.querySelectorAll(".reveal3");
   for (var i = 0; i < reveals3.length; i++) {
@@ -57,6 +58,9 @@ function reveal3() {
 
     if (elementTop3 < windowHeight3 - elementVisible3) {
       reveals3[i].classList.add("active");
+      for (; abcd < 1; abcd++) {
+        letsgob();
+      }
     } else {
       reveals3[i].classList.remove("active");
     }
@@ -142,6 +146,93 @@ function letsgo() {
     })
     .add({
       targets: ".ml11",
+      opacity: 1,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000,
+    });
+}
+function letsgoa() {
+  var textWrappera = document.querySelector(".ml11a .lettersa");
+  textWrappera.innerHTML = textWrappera.textContent.replace(
+    /([^\x00-\x80]|\w)/g,
+    "<span class='lettera'>$&</span>"
+  );
+
+  anime
+    .timeline({ loop: 1 })
+    .add({
+      targets: ".ml11a .linea",
+      scaleY: [0, 1],
+      opacity: 0,
+      
+      easing: "easeOutExpo",
+      duration: 700,
+    })
+    .add({
+      targets: ".ml11a .linea",
+      translateX: [
+        0,
+        document.querySelector(".ml11a .lettersa").getBoundingClientRect()
+          .width + 10,
+      ],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100,
+    })
+    .add({
+      targets: ".ml11a .lettera",
+      opacity: [0, 1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: "-=775",
+      delay: (el, i) => 34 * (i + 1),
+    })
+    .add({
+      targets: ".ml11a",
+      opacity: 1,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000,
+    });
+}
+function letsgob() {
+  var textWrapperb = document.querySelector(".ml11b .lettersb");
+  textWrapperb.innerHTML = textWrapperb.textContent.replace(
+    /([^\x00-\x80]|\w)/g,
+    "<span class='lettera'>$&</span>"
+  );
+
+  anime
+    .timeline({ loop: 1 })
+    .add({
+      targets: ".ml11b .lineb",
+      scaleY: [0, 1],
+      opacity: 0,
+      easing: "easeOutExpo",
+      duration: 700,
+    })
+    .add({
+      targets: ".ml11b .lineb",
+      translateX: [
+        0,
+        document.querySelector(".ml11b .lettersb").getBoundingClientRect()
+          .width + 10,
+      ],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100,
+    })
+    .add({
+      targets: ".ml11b .letterb",
+      opacity: [0, 1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: "-=775",
+      delay: (el, i) => 34 * (i + 1),
+    })
+    .add({
+      targets: ".ml11b",
       opacity: 1,
       duration: 1000,
       easing: "easeOutExpo",
