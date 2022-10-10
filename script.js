@@ -78,15 +78,10 @@ function scrollFunction() {
 }
 // // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  var obj = document.getElementById("1");
-  var obj2 = document.getElementById("2");
-  var obj3 = document.getElementById("3");
+
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   
-  obj.style.color( "red");
-  obj2.style.color( "green");
-  obj3.style.color("yellow");
 }
 
 let section = document.querySelectorAll("section");
@@ -170,6 +165,7 @@ function letsgoa() {
       targets: ".ml11a .linea",
       scaleY: [0, 1],
       opacity: 0,
+      
       easing: "easeOutExpo",
       duration: 700,
     })
