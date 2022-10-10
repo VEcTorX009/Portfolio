@@ -224,13 +224,11 @@ nav a.active{
 .about-container h3{
     font-family:  Arial, sans-serif;
     padding-top: 10px;
-    padding-left: 9px;
     padding-bottom: 10px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
 }
 .about-paragraph span{
-
     font-family:  Arial, sans-serif;
     position: relative;
     font-weight: 400;
@@ -241,6 +239,18 @@ nav a.active{
 .about-paragraph{
     align-items: center;
     justify-content: center;
+}
+.about-paragraph a{
+    text-decoration: none;
+    color: rgb(40, 155, 175);
+    transition: 0.3s ease-in;
+}
+.about-paragraph a:hover{
+    color: cyan;
+    border: 2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 
@@ -410,29 +420,39 @@ nav li a:hover div{
     flex-direction: column;
     padding: 30px;
 }
+.tech h2{
+    font-size: 35px;
+    width: auto;
+    font-weight: 700;
+}
+.tech li{
+    padding: 10px;
+    font-size: 20px;
 
-.tech h4{
-  font-family: "Roboto Condensed", sans-serif;
+}
+.tech span{
+    font-family: "Roboto Condensed", sans-serif;
   font-weight: 500;
-  line-break: normal;
-  width:auto;
+  line-height: 35px;
   font-size: 20px;
 }
 .lang{
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     display: flex;
     position: relative;
     flex-direction: row;
+    border-radius: 100px;
     padding: 30px;
 }
 .lang img{
     max-width: 50%;
     min-width: 50%;
-    border-radius: 60px;
+    border-radius: 100px;
     background-color: transparent;
 	transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
+    margin-bottom: 20px;
 }
 
 @keyframes float {
@@ -713,4 +733,17 @@ form button:hover {
     .dev-pic{
         margin-left: 0;
     }
+    .hello{
+        width: 100%;
+    }
   }
+ .project-heading{
+    display: flex;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+.project-heading h3{
+    font-size: 40px;
+}
