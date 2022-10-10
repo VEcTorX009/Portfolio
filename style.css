@@ -18,24 +18,13 @@ nav{
 
 #outer-nav{
     background-position: 100px;
-    animation: bodycolor ease 3s;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     z-index: 1;
   }
-  
-  @keyframes bodycolor {
-    0% {
-        opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+
 #inner-nav {
     animation: slideright 2s linear backwards;
     height: 60px;
@@ -88,7 +77,7 @@ nav a.active{
     display: flex;
     flex-wrap: initial;
     margin-top: -60px;
-    animation: homerun 1s ;
+    animation: homerun 0.8s ;
     background-image: url('bg.jpg');
     background-size: cover  ;
     width: 100%;
