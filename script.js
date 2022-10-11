@@ -2,13 +2,6 @@ setTimeout(function(){
   $('.loader_bg').fadeToggle();
 },1500);
 
-
-
-
-
-
-
-
 var abc = 0;
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
