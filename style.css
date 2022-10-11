@@ -150,7 +150,17 @@ nav a.active{
 .dev-pic img {
     height: 40vh;
     margin-bottom: 10px;
+    animation: 1s slidein ease-in;
 }
+
+@keyframes slidein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 .dev-pic{
     margin-left: 10rem;
     display: flex;
