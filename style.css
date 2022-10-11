@@ -21,13 +21,14 @@ html{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-      background:  rgb(40, 155, 175);
+	  background: #555; 
+      
       transition: 1s ease-in;
     }
     
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background:  rgb(40, 155, 175);
   }
 
 .loader_bg{
