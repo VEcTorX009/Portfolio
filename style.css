@@ -10,6 +10,48 @@
 html{
     scroll-behavior: smooth;
 }
+
+
+.loader_bg{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    background-image: url('loadingbg.gif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.loader:before, .loader::after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+
+.loader:before{
+    animation-duration: 0.5s;
+}
+
+@keyframes loader{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
 nav{
     font-family: 'Lato', sans-serif;
     position: sticky;
@@ -78,6 +120,7 @@ nav a.active{
     flex-wrap: initial;
     margin-top: -60px;
     animation: homerun 0.8s ;
+    animation-delay: 1.2s;
     background-image: url('bg.jpg');
     background-size: cover  ;
     width: 100%;
@@ -152,7 +195,7 @@ nav a.active{
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
     
-  }
+}
   @keyframes scale {
     100% {
       transform: scale(1);
@@ -168,14 +211,17 @@ nav a.active{
   
   .info h1 {
     animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  .info h2 {
+    animation-delay: 1.5s;
+}
+
+.info h2 {
     animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  .info h3 {
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      animation-delay: 1.5s;
+    }
+    
+    .info h3 {
+        animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        animation-delay: 1.5s;
   }
   @keyframes fade-in {
     100% {
