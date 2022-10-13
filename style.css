@@ -789,6 +789,9 @@ form button:hover {
     .about-container{
         max-width: 100%;
     }
+	  .tech{
+		  padding: 0px;
+	  }
     .playlist-text{
         padding: 0px;
         margin-bottom: 40px;
