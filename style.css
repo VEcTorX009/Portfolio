@@ -282,7 +282,7 @@ nav a.active{
     flex-wrap: wrap;
     margin: 0 auto;
     color: white;
-    padding: 30px;
+    padding: 60px;
 
 }
 .about-container h1{
@@ -641,7 +641,8 @@ border-radius: 30px;
         position: relative;
         margin: 0 auto;
         color: white;
-        padding: 30px;
+        padding: 26px;
+	margin-top: 75px;
         
 }
 .contact-container h1{
