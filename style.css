@@ -788,11 +788,12 @@ form button:hover {
         padding: 0px;
     }
     .about-container{
+	padding:0px;
         max-width: 100%;
     }
-	  .tech{
-		  padding: 0px;
-	  }
+    .tech{
+	padding: 0px;
+     }
     .playlist-text{
         padding: 0px;
         margin-bottom: 40px;
