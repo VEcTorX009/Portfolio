@@ -244,16 +244,3 @@ function letsgob() {
     });
 }
 
-function sendEmail() {
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: "vectorx009@gmail.com",
-    Password: "FinishitUP009.",
-    To: "aishwarysrivastava2006@gmail.com",
-    From:  document.getElementById("email").value,
-    Subject: "Business Enquiry to Som",
-    Body: "Name: " + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Message: " + document.getElementById("message").value
-  }).then((message) => alert("Message Sent!"));
-}
