@@ -247,9 +247,9 @@ function letsgob() {
 function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "username",
-    Password: "password",
-    To: "vectorx009@gmail.com",
+    Username: "vectorx009@gmail.com",
+    Password: "FinishitUP009.",
+    To: "aishwarysrivastava2006@gmail.com",
     From:  document.getElementById("email").value,
     Subject: "Business Enquiry to Som",
     Body: "Name: " + document.getElementById("name").value
