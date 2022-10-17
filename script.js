@@ -243,4 +243,3 @@ function letsgob() {
       delay: 1000,
     });
 }
-
