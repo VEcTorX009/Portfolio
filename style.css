@@ -614,7 +614,7 @@ nav li a:hover div {
   position: relative;
   margin: 0 auto;
   color: white;
-  padding: 30px;
+  padding: 20px;
 }
 .contact-container h1 {
   max-width: 60%;
@@ -738,7 +738,7 @@ form button:hover {
 
 @media (max-width: 799px) {
   form {
-    padding: 25px;
+    padding: 30px;
   }
   .tech {
     padding: 0px;
