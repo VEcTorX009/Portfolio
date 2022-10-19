@@ -757,6 +757,8 @@ form button:hover {
     max-width: 100%;
   }
   .work-container {
+    align-items: center;
+    justify-content: center;
     padding: 30px;
     max-width: 100%;
   }
@@ -780,3 +782,10 @@ form button:hover {
     text-align: center;
   font-size: 40px;
 }
+/* 
+.form-container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+} */
