@@ -136,7 +136,7 @@ nav a.active {
   margin-top: -60px;
   animation: homerun 0.8s;
   animation-delay: 1.3s;
-  background-image: url("bg.jpg");
+  background-image: url("bg.webp");
   background-size: cover;
   /* width: 100%; */
 }
