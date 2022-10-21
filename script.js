@@ -2,7 +2,7 @@ setTimeout(function(){
   $('.loader_bg').fadeToggle();
 },1500);
 
-var abc = 0;
+
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
   var reveals1 = document.querySelectorAll(".reveal1");
@@ -13,18 +13,17 @@ function reveal() {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
     var elementVisible = 150;
-
+      
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
-      for (; abc < 1; abc++) {
-        letsgoa();
-      }
     } else {
       reveals[i].classList.remove("active");
+      letsgoa();
     }
     if (elementTop1 < windowHeight1 - elementVisible1) {
       reveals1[i].classList.add("active");
     } else {
+      letsgo();
       reveals1[i].classList.remove("active");
     }
   }
@@ -32,27 +31,25 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-var ab = 0;
 function reveal2() {
   var reveals2 = document.querySelectorAll(".reveal2");
   for (var i = 0; i < reveals2.length; i++) {
     var windowHeight2 = window.innerHeight;
     var elementTop2 = reveals2[i].getBoundingClientRect().top;
     var elementVisible2 = 150;
+    
 
     if (elementTop2 < windowHeight2 - elementVisible2) {
       reveals2[i].classList.add("active");
-      for (; ab < 1; ab++) {
-        letsgo();
-      }
-    } else {
+    }
+    else{
+      
       reveals2[i].classList.remove("active");
     }
   }
 }
 
 window.addEventListener("scroll", reveal2);
-var abcd = 0;
 function reveal3() {
   var reveals3 = document.querySelectorAll(".reveal3");
   for (var i = 0; i < reveals3.length; i++) {
@@ -62,9 +59,7 @@ function reveal3() {
 
     if (elementTop3 < windowHeight3 - elementVisible3) {
       reveals3[i].classList.add("active");
-      for (; abcd < 1; abcd++) {
-        letsgob();
-      }
+
     } else {
       reveals3[i].classList.remove("active");
     }
@@ -127,7 +122,7 @@ function letsgo() {
       scaleY: [0, 1],
       opacity: 0,
       easing: "easeOutExpo",
-      duration: 700,
+      duration: 300,
     })
     .add({
       targets: ".ml11 .line",
@@ -171,7 +166,7 @@ function letsgoa() {
       opacity: 0,
       
       easing: "easeOutExpo",
-      duration: 700,
+      duration: 200,
     })
     .add({
       targets: ".ml11a .linea",
@@ -194,49 +189,6 @@ function letsgoa() {
     })
     .add({
       targets: ".ml11a",
-      opacity: 1,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 1000,
-    });
-}
-function letsgob() {
-  var textWrapperb = document.querySelector(".ml11b .lettersb");
-  textWrapperb.innerHTML = textWrapperb.textContent.replace(
-    /([^\x00-\x80]|\w)/g,
-    "<span class='lettera'>$&</span>"
-  );
-
-  anime
-    .timeline({ loop: 1 })
-    .add({
-      targets: ".ml11b .lineb",
-      scaleY: [0, 1],
-      opacity: 0,
-      easing: "easeOutExpo",
-      duration: 700,
-    })
-    .add({
-      targets: ".ml11b .lineb",
-      translateX: [
-        0,
-        document.querySelector(".ml11b .lettersb").getBoundingClientRect()
-          .width + 10,
-      ],
-      easing: "easeOutExpo",
-      duration: 700,
-      delay: 100,
-    })
-    .add({
-      targets: ".ml11b .letterb",
-      opacity: [0, 1],
-      easing: "easeOutExpo",
-      duration: 600,
-      offset: "-=775",
-      delay: (el, i) => 34 * (i + 1),
-    })
-    .add({
-      targets: ".ml11b",
       opacity: 1,
       duration: 1000,
       easing: "easeOutExpo",
