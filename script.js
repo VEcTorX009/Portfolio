@@ -122,7 +122,7 @@ function letsgo() {
       scaleY: [0, 1],
       opacity: 0,
       easing: "easeOutExpo",
-      duration: 300,
+      duration: 400,
     })
     .add({
       targets: ".ml11 .line",
