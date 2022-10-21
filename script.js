@@ -122,7 +122,7 @@ function letsgo() {
       scaleY: [0, 1],
       opacity: 0,
       easing: "easeOutExpo",
-      duration: 400,
+      duration: 300,
     })
     .add({
       targets: ".ml11 .line",
@@ -148,7 +148,7 @@ function letsgo() {
       opacity: 1,
       duration: 1000,
       easing: "easeOutExpo",
-      delay: 1000,
+      delay: 3000,
     });
 }
 function letsgoa() {
