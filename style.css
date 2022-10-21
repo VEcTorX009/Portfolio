@@ -704,7 +704,7 @@ form textarea {
   transition: 0.3s ease-in;
 }
 form input:hover,
-form textarea:hover, form input:active, formtextarea:active {
+form textarea:hover, form input:active, form textarea:active {
   border-color: orange;
 }
 
