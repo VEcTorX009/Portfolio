@@ -493,7 +493,7 @@ nav li a:hover div {
 }
 .tech li {
   padding: 10px;
-  font-family: serif;
+  font-family: monospace;
   font-size: 20px;
 }
 .tech span {
