@@ -497,7 +497,7 @@ nav li a:hover div {
   font-size: 20px;
 }
 .tech span {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: monospace;
   font-weight: 500;
   line-height: 35px;
   font-size: 20px;
@@ -580,7 +580,7 @@ nav li a:hover div {
 
 .hello__title {
   color: cyan;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2em;
   font-weight: bold;
 }
