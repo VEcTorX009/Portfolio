@@ -824,7 +824,7 @@ form button:hover {
   color: rgb(31, 200, 230);
   transform-origin: bottom left;
 }
-#home:After{
+#outer-nav:After{
   content: '';
   position: absolute;
   height: 3px;
