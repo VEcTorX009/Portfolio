@@ -538,11 +538,19 @@ nav li a:hover div {
 .hello {
   position: relative;
   width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
 }
 .hello_img {
   filter: brightness(0.9);
-  border-radius: 30px;
   width: 100%;
+}
+
+.hello img {
+  transition: transform .7s ease;
+}
+.hello:hover img {
+  transform: scale(1.2);
 }
 
 .hello__overlay {
@@ -551,6 +559,7 @@ nav li a:hover div {
   box-shadow: 1px 1px 15px cyan;
   position: absolute;
   top: 0;
+  border-radius: 30px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -562,7 +571,7 @@ nav li a:hover div {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.25s;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
 }
 
 .hello__overlay > * {
@@ -597,7 +606,7 @@ nav li a:hover div {
 }
 
 .project {
-  padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .link-container {
@@ -750,6 +759,12 @@ form button:hover {
   align-items: center;
 }
 
+.project-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 799px) {
   form {
     padding: 30px;
