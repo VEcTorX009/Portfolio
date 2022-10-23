@@ -824,3 +824,28 @@ form button:hover {
   color: rgb(31, 200, 230);
   transform-origin: bottom left;
 }
+#home:After{
+  content: '';
+  position: absolute;
+  height: 3px;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  animation: bar 1s linear forwards;
+  animation-delay: 1s;
+  background-color: rgb(162, 189, 196);
+  box-shadow: 1px 1px 10px cyan;
+  transform-origin: right;
+  width: 100%;
+}
+
+@keyframes bar {
+  0%{
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  50%{
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+}
