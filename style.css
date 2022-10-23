@@ -420,7 +420,7 @@ nav li a:hover div {
 .spotify {
   flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 7vh;
   padding-bottom: 10vh;
   padding-left: 20px;
@@ -434,10 +434,13 @@ nav li a:hover div {
   padding: 50px;
   padding-right: 130px;
 }
-
+.spotify a{
+  /* position: relative; */
+  width: 40%;
+}
 .spotify img {
   transition: 0.4s ease-in;
-  width: 70%;
+  width: 100%;
 }
 .spotify img:hover {
   cursor: pointer;
@@ -781,7 +784,10 @@ form button:hover {
   }
 }
 @media (max-width: 596px) {
-.hello__description{
+  .spotify a{
+    width: 90%;
+  }
+  .hello__description{
 display:none;
 }
 }
@@ -829,24 +835,19 @@ display:none;
   height: 3px;
   top: 0;
   left: 0;
-  transform: scaleX(0);
-  animation: bar 1.8s linear forwards;
+  animation: bar 1.6s linear forwards;
   background-color: rgb(162, 189, 196);
   box-shadow: 1px 1px 10px cyan;
-  transform-origin: right;
   width: 100%;
 }
 
 @keyframes bar {
   0%{
     transform: scaleX(0);
-    transform-origin: left;
+    opacity: 1;
   }
-  50%{
+  100%{
+    opacity: 1;
     transform: scaleX(1);
-    transform-origin: right;
   }
-}
-.spotify a{
-  cursor: none;
 }
