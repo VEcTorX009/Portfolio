@@ -778,9 +778,11 @@ form button:hover {
   .dev-pic {
     margin-left: 0;
   }
-  .hello__description{
-    display: none;
-  }
+}
+@media (max-width: 596px) {
+.hello__description{
+display:none;
+}
 }
 .playlist-text h2{
   color: rgb(40, 155, 175);
