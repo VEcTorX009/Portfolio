@@ -315,15 +315,6 @@ nav a.active {
 .about-paragraph a {
   text-decoration: none;
   color: rgb(40, 155, 175);
-  transition: 0.3s ease-in;
-  border: 0px solid white;
-}
-.about-paragraph a:hover {
-  color: cyan;
-  border: 1px solid white;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
 }
 
 .reveal {
@@ -810,4 +801,26 @@ form button:hover {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
   font-size: 40px;
+}
+
+#readingLink{
+  display: inline-block;
+  position: relative;
+}
+#readingLink:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.reveal span a:hover, #readingLink:hover:after{
+  transform: scaleX(1);
+  color: rgb(31, 200, 230);
+  transform-origin: bottom left;
 }
