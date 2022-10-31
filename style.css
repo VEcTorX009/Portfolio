@@ -278,6 +278,8 @@ nav a.active {
   box-shadow: 1px 1px 10px cyan;
   background-size: cover;
   background-color: black;
+  background-image: url('aboutbg.jpg');
+  background-repeat: no-repeat;
 }
 
 .about-container {
@@ -435,7 +437,6 @@ nav li a:hover div {
   padding-right: 130px;
 }
 .spotify a{
-  /* position: relative; */
   width: 40%;
 }
 .spotify img {
@@ -451,6 +452,9 @@ nav li a:hover div {
   box-shadow: 1px 1px 10px cyan;
   background-size: cover;
   background-color: black;
+  background-image: url('workbg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .work-container {
