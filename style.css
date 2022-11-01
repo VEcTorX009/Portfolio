@@ -545,7 +545,7 @@ nav li a:hover div {
   transition: transform .7s ease;
 }
 .hello:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .hello__overlay {
