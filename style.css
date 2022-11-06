@@ -147,7 +147,7 @@ nav a.active {
   flex-wrap: initial;
   margin-top: -60px;
   animation: homerun 0.7s;
-  animation-delay: 1.3s;
+  animation-delay: 1.2s;
   background-image: url("bg.png");
   background-size: cover;
   /* width: 100%; */
