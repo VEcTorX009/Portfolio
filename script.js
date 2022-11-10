@@ -99,7 +99,7 @@ window.onscroll = () => {
       menu.forEach((link) => {
         link.classList.remove("active");
         document
-          .querySelector("nav a[href*=" + id + "]")
+          .querySelector("a[href*=" + id + "]")
           .classList.add("active");
       });
     }
