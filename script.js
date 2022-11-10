@@ -48,8 +48,26 @@ function reveal2() {
     }
   }
 }
-
 window.addEventListener("scroll", reveal2);
+function reveal4() {
+  var reveals4 = document.querySelectorAll(".reveal4");
+  for (var i = 0; i < reveals4.length; i++) {
+    var windowHeight2 = window.innerHeight;
+    var elementTop2 = reveals4[i].getBoundingClientRect().top;
+    var elementVisible2 = 150;
+    
+
+    if (elementTop2 < windowHeight2 - elementVisible2) {
+      reveals4[i].classList.add("active");
+    }
+    else{
+      
+      reveals4[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal4);
 function reveal3() {
   var reveals3 = document.querySelectorAll(".reveal3");
   for (var i = 0; i < reveals3.length; i++) {
@@ -239,4 +257,8 @@ function letsgob() {
       easing: "easeOutExpo",
       delay: 1000,
     });
+}
+
+function soon() {
+  alert("Working on it...");
 }
