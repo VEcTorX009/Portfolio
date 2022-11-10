@@ -500,21 +500,22 @@ background-size: cover;
   align-items: center;
   justify-content: center;
   display: flex;
-  position: relative;
-  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 20px;
   padding: 10px;
 }
 .lang img {
-  animation: float 6s ease-in-out infinite;
   width: 90px;
   margin: 20px;
   border-radius: 550px;
   background-color: transparent;
   transform: translatey(0px);
+  z-index: -1;
+  animation: float 6s ease-in-out infinite;
 }
-
+.lang img:nth-child(3){
+  background-color: rgb(54, 146, 166);
+}
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -712,10 +713,6 @@ form input:hover,
 form textarea:hover {
   border-color: orange;
 }
-form input:active,
-form textarea:active {
-  border-color: orange;
-}
 
 form button {
   padding: 15px;
@@ -766,6 +763,9 @@ form button:hover {
   form {
     padding: 30px;
   }
+  .lang{
+    flex-wrap: wrap;
+  }
   .tech {
     padding: 0px;
   }
@@ -795,6 +795,9 @@ form button:hover {
   }
   .hello__description {
     display: none;
+  }
+  .lang{
+    flex-wrap: wrap;
   }
 }
 .playlist-text h2 {
