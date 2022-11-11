@@ -532,7 +532,7 @@ background-size: cover;
   transform: translatey(0px);
   z-index: -1;
   animation: float 6s ease-in-out infinite;
-  box-shadow: 0 5px 15px 0px cyan;
+      box-shadow: 0 5px 15px 0px rgb(0 0 0 / 60%);
 }
 .lang img:nth-child(3){
   background-color: rgb(54, 146, 166);
