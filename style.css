@@ -486,6 +486,7 @@ background-size: cover;
 .work-container a{
   cursor: pointer;
   padding-top: 3vh;
+      font-family: "Times New Roman", Times, serif;
   transition: 0.4s ease-in-out;
   color: cyan;
   padding: 5px;
