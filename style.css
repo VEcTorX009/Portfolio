@@ -487,7 +487,7 @@ background-size: cover;
   cursor: pointer;
   padding-top: 3vh;
   transition: 0.4s ease-in-out;
-  color: rgb(40, 155, 175);
+  color: cyan;
   padding: 5px;
   font-size: 40px;
 }
