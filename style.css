@@ -11,7 +11,10 @@ html {
 ::-webkit-scrollbar {
   width: 6px;
 }
-
+::selection{
+  background-color:black;
+  color:white;
+}
 
 ::-webkit-scrollbar-track {
   background: black;
@@ -374,13 +377,29 @@ background-size: cover;
   transform: translateY(100px);
   opacity: 0;
   transition: 1s all ease;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.reveal4.active {
+.reveal4.active, .reveal4 a {
   transform: translateY(0);
   opacity: 1;
+  animation: 8s colorchange ease-in-out infinite;
 }
-
+@keyframes colorchange{
+  0%{
+    color: rgb(13, 202, 202);
+  }
+  50%{
+    color: rgb(27, 122, 122);
+  }
+  100%{
+    color: rgb(13, 202, 202);
+  }
+}
+.reveal4 a:hover{
+  transform: scale(1.05);
+  animation: none;
+}
 #myBtn {
   transition: 0.3s ease-in;
   display: none; 
@@ -488,10 +507,6 @@ background-size: cover;
   font-size: 40px;
 }
 
-.work-container a:hover{
-  color: white;
-}
-
 .tech {
   display: flex;
   position: relative;
@@ -521,6 +536,7 @@ background-size: cover;
   justify-content: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 20px;
   padding: 10px;
 }
@@ -533,9 +549,7 @@ background-size: cover;
   z-index: -1;
   animation: float 6s ease-in-out infinite;
       box-shadow: 0 5px 15px 0px rgb(0 0 0 / 60%);
-}
-.lang img:nth-child(3){
-  background-color: rgb(54, 146, 166);
+      background-color: rgb(54, 146, 166);
 }
 @keyframes float {
   0% {
@@ -722,23 +736,20 @@ form textarea {
   outline: none;
   resize: vertical;
   background-color: transparent;
-  border: 2px solid white;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
+  border-bottom: 2px solid white;
   font-size: 20px;
   transition: 0.3s ease-in;
 }
-form input:hover,
-form textarea:hover {
-  border-color: orange;
+form input:focus,
+form textarea:focus {
+  border-bottom: 2px solid orange;
 }
 
 form button {
   padding: 15px;
-  background-color: black; /* Set a background color */
+  background-color: black;
   color: white;
-  border-radius: 70px; /* Rdounded corners */
+  border-radius: 70px; 
   box-shadow: 1px 1px 10px cyan;
   border: 2px solid white;
   font-size: 16px;
@@ -752,7 +763,7 @@ form button {
 }
 
 form button:hover {
-  background-color: white; /* Add a dark-grey background on hover */
+  background-color: white;
   color: black;
 }
 
@@ -782,9 +793,6 @@ form button:hover {
 @media (max-width: 799px) {
   form {
     padding: 30px;
-  }
-  .lang{
-    flex-wrap: wrap;
   }
   .tech {
     padding: 0px;
@@ -853,9 +861,9 @@ form button:hover {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.reveal span a:hover,
+.reveal span a:hover,.work-container a:hover,
 #readingLink:hover:after {
-  transform: scaleX(1);
+  transform: scaleX(1.05);
   color: rgb(31, 200, 230);
   transform-origin: bottom left;
 }
@@ -874,6 +882,7 @@ form button:hover {
 @keyframes bar {
   0% {
     transform: scaleX(0);
+    box-shadow: 1px 1px 10px rgb(18, 161, 161);
     opacity: 1;
   }
   100% {
