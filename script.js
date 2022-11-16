@@ -1,4 +1,4 @@
-if(document.readyState!=="completed"){
+if(document.readyState==="loading"){
   setTimeout(function(){
     $('.loader_bg').fadeToggle();
   },1500);
