@@ -1,6 +1,8 @@
-setTimeout(function(){
-  $('.loader_bg').fadeToggle();
-},1500);
+if(document.readyState!=="completed"){
+  setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+  },1500);
+}
 
 
 function reveal() {
