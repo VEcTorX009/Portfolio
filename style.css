@@ -619,7 +619,6 @@ background-size: cover;
 
 .hello__title {
   color: cyan;
-  font-family: monospace;
   font-size: 2em;
   font-weight: bold;
 }
@@ -633,6 +632,7 @@ background-size: cover;
   font-family: "Noto Sans Mono", monospace;
   font-size: 1.25em;
   padding-top: 10px;
+  max-width: 35em;
 }
 
 .project {
