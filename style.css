@@ -377,7 +377,7 @@ background-size: cover;
   transform: translateY(100px);
   opacity: 0;
   transition: 1s all ease;
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
 }
 
 .reveal4.active, .reveal4 a {
@@ -434,7 +434,7 @@ nav li a div {
   left: 30px;
   top: 40px;
   color: cyan;
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: visibility 0s, opacity 0.5s linear;
@@ -515,7 +515,7 @@ background-size: cover;
   padding: 30px;
 }
 .tech h2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
   font-size: 35px;
   width: auto;
   font-weight: 700;
@@ -619,7 +619,7 @@ background-size: cover;
 
 .hello__title {
   color: cyan;
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
   font-size: 2em;
   font-weight: bold;
 }
@@ -840,7 +840,7 @@ form button:hover {
   margin-bottom: 40px;
 }
 .project-heading h3 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
   text-align: center;
   font-size: 40px;
 }
