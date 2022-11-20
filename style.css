@@ -473,7 +473,7 @@ nav a.active {
   cursor: pointer;
   padding-top: 3vh;
   transition: 0.4s ease-in-out;
-  color: rgb(12 82 155);
+  color: cyan;
   padding: 5px;
   font-size: 40px;
 }
