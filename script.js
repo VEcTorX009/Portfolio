@@ -133,7 +133,7 @@ function letsgo() {
   var textWrapper = document.querySelector(".ml11 .letters");
   textWrapper.innerHTML = textWrapper.textContent.replace(
     /([^\x00-\x80]|\w)/g,
-    "<span class='letter'>$&</span>"
+    "<span class='letter bg-black'>$&</span>"
   );
 
   anime
@@ -176,7 +176,7 @@ function letsgoa() {
   var textWrappera = document.querySelector(".ml11a .lettersa");
   textWrappera.innerHTML = textWrappera.textContent.replace(
     /([^\x00-\x80]|\w)/g,
-    "<span class='lettera'>$&</span>"
+    "<span class='lettera bg-black'>$&</span>"
   );
 
   anime
@@ -220,7 +220,7 @@ function letsgob() {
   var textWrapperb = document.querySelector(".ml11b .lettersb");
   textWrapperb.innerHTML = textWrapperb.textContent.replace(
     /([^\x00-\x80]|\w)/g,
-    "<span class='letterb'>$&</span>"
+    "<span class='letterb bg-black'>$&</span>"
   );
 
   anime
