@@ -144,9 +144,7 @@ nav a.active {
   margin-top: -60px;
   animation: homerun 0.7s;
   animation-delay: 1.2s;
-  background-image: url("bg.webp");
-  background-size: cover;
-  /* width: 100%; */
+ background: linear-gradient( black 30%, #108592 80%,#108592 97%);
 }
 @keyframes homerun {
   0% {
@@ -271,10 +269,7 @@ nav a.active {
 }
 
 #about {
-
-  background-size: cover;
-  background: linear-gradient( black 30%, #108592 80%,#108592 97%);
-background-size: cover;
+ background: linear-gradient( #108592 10%, #ff5d63 80%,#c82828 97%);
 }
 
 .about-container {
@@ -452,8 +447,7 @@ background-size: cover;
 }
 
 #work {
-  background: linear-gradient( #108592 10%, #25becf 40%,#13575f 80%);
-background-size: cover;
+  background: linear-gradient( #c82828 1%, #cf6625 60%,#1d961d 100%);
 }
 
 .work-container {
@@ -520,23 +514,21 @@ background-size: cover;
   width: 90px;
   margin: 20px;
   border-radius: 550px;
-  background-color: transparent;
   transform: translatey(0px);
   z-index: -1;
   animation: float 6s ease-in-out infinite;
-      box-shadow: 0 5px 15px 0px rgb(0 0 0 / 60%);
-      background-color: rgb(54, 146, 166);
+      box-shadow: 0 5px 15px 0px black;
 }
 @keyframes float {
   0% {
     transform: translatey(0px);
   }
   50% {
-    box-shadow: 0 5px 15px 0px cyan;
+    box-shadow: 0 5px 15px 0px mediumvioletred;
     transform: translatey(-5px);
   }
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px black;
     transform: translatey(0px);
   }
 }
@@ -627,9 +619,7 @@ background-size: cover;
 }
 
 #contact {
-  background: linear-gradient( #13575f 1%, #061a1d 71%, #061a1d 10%);
-
-background-size: cover;
+  background: linear-gradient( #1d961d 1%, green 11%, black 90%);
   flex-direction: row;
   display: flex;
 }
