@@ -327,19 +327,19 @@ nav a.active {
 
 .reveal5 {
   position: relative;
-  transform: translateX(150px);
+  transform: translateY(-150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
 .reveal5.active {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
 .reveal7 {
   position: relative;
-  transform: translateX(150px);
+  transform: translateX(50px);
   opacity: 0;
   transition: 1s all ease;
 }
