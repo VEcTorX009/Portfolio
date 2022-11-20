@@ -339,13 +339,13 @@ nav a.active {
 
 .reveal7 {
   position: relative;
-  transform: translateX(50px);
+  transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
 .reveal7.active {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
