@@ -25,13 +25,30 @@ function reveal() {
     if (elementTop1 < windowHeight1 - elementVisible1) {
       reveals1[i].classList.add("active");
     } else {
-      letsgo();
       reveals1[i].classList.remove("active");
     }
   }
 }
-
 window.addEventListener("scroll", reveal);
+function reveal6() {
+  var reveals6 = document.querySelectorAll(".reveal6");
+  for (var i = 0; i < reveals6.length; i++) {
+    var windowHeight6 = window.innerHeight;
+    var elementTop6 = reveals6[i].getBoundingClientRect().top;
+    var elementVisible6 = 150;
+    var windowHeight6 = window.innerHeight;
+      
+    if (elementTop6 < windowHeight6 - elementVisible6) {
+      reveals6[i].classList.add("active");
+    } else {
+      letsgo();
+      reveals6[i].classList.remove("active");
+    }
+
+  }
+}
+
+window.addEventListener("scroll", reveal6);
 
 function hi() {
   var w = document.querySelectorAll(".reveal5");
@@ -171,7 +188,7 @@ function letsgo() {
       ],
       easing: "easeOutExpo",
       duration: 700,
-      delay: 100,
+      delay: 10,
     })
     .add({
       targets: ".ml11 .letter",
