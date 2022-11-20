@@ -89,22 +89,15 @@ nav {
   top: 0;
 }
 
-#outer-nav {
-  background-position: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  z-index: 1;
-}
-
 #inner-nav {
+  position: sticky;
   animation: slideright 2s linear backwards;
   height: 60px;
   display: flex;
   align-items: center;
-  position: relative;
+  justify-content: center;
   list-style-type: none;
+  z-index: 1;
 }
 @keyframes slideright {
   0% {
@@ -126,6 +119,29 @@ nav {
   text-decoration: none;
   transition: 0.4s ease-in-out;
 }
+
+nav li a div {
+  position: absolute;
+  bottom: 0;
+  font-size: 15px;
+  left: 43.4em;
+  text-align: center;
+  top: 40px;
+  color: cyan;
+  font-family: monospace;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+nav li a:hover div {
+  padding: 10px 27px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
 .red {
   color: red;
 }
@@ -421,33 +437,13 @@ background-size: cover;
 }
 
 #myBtn:hover {
+  scale: 1.1;
   background-color: white; 
   color: black;
 }
-
-nav li a div {
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  bottom: 0;
-  font-size: 15px;
-  left: 30px;
-  top: 40px;
-  color: cyan;
-  font-family: monospace;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
+#myBtn:active{
+  scale: 0.8;
 }
-
-
-nav li a:hover div {
-  padding: 10px 27px;
-  visibility: visible;
-  opacity: 0.7;
-}
-
 .spotify {
   flex-wrap: wrap;
   display: flex;
@@ -478,8 +474,7 @@ nav li a:hover div {
 }
 
 #work {
- 
-  background: linear-gradient( #108592 10%, #25becf 40%,#13575f 60%);
+  background: linear-gradient( #108592 10%, #25becf 40%,#13575f 80%);
 background-size: cover;
 }
 
@@ -519,6 +514,9 @@ background-size: cover;
   font-size: 35px;
   width: auto;
   font-weight: 700;
+}
+.bg-black{
+  background-color: black;
 }
 .tech li {
   padding: 10px;
