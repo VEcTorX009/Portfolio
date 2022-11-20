@@ -120,28 +120,6 @@ nav {
   transition: 0.4s ease-in-out;
 }
 
-nav li a div {
-  position: absolute;
-  bottom: 0;
-  font-size: 15px;
-  left: 43.4em;
-  text-align: center;
-  top: 40px;
-  color: cyan;
-  font-family: monospace;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
-}
-
-
-nav li a:hover div {
-  padding: 10px 27px;
-  visibility: visible;
-  opacity: 0.7;
-}
-
 .red {
   color: red;
 }
