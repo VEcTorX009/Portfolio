@@ -888,9 +888,3 @@ svg {
   -webkit-transition: visibility 0s, opacity 0.5s linear; 
   transition: visibility 0s, opacity 0.5s linear;
 }
-.java:hover div{
-  width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
-}
