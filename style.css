@@ -621,7 +621,7 @@ nav a.active {
 }
 
 #contact {
-  background: linear-gradient( rgb(40, 155, 175) 10%, rgb(40, 155, 175) 10%, black 60%);
+  background: linear-gradient( rgb(40, 155, 175) 10%, rgb(40, 155, 175) 10%, black 100%);
   flex-direction: row;
   display: flex;
 }
