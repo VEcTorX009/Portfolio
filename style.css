@@ -176,7 +176,7 @@ nav a.active {
 }
 
 .dev-pic {
-  background-color: rgb(0, 128, 77);
+  background-color: red;
   margin-left: 10rem;
   display: flex;
   position: relative;
