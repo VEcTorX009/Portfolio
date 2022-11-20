@@ -277,7 +277,7 @@ nav a.active {
 }
 
 #about {
-  box-shadow: 1px 1px 10px cyan;
+
   background-size: cover;
   background: linear-gradient( black 30%, #108592 80%,#108592 97%);
 background-size: cover;
@@ -478,7 +478,7 @@ nav li a:hover div {
 }
 
 #work {
-  box-shadow: 1px 1px 10px cyan;
+ 
   background: linear-gradient( #108592 10%, #25becf 40%,#13575f 60%);
 background-size: cover;
 }
@@ -651,7 +651,6 @@ background-size: cover;
 }
 
 #contact {
-  box-shadow: 1px 1px 10px cyan;
   background: linear-gradient( #13575f 1%, #061a1d 71%, #061a1d 10%);
 
 background-size: cover;
