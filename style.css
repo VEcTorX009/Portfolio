@@ -271,7 +271,7 @@ nav a.active {
 }
 
 #about {
- background: linear-gradient( #108592 10%, #ff5d63 80%,#c82828 97%);
+ background: linear-gradient( #108592 10%, #842424  80%,#842424  97%);
 }
 
 .about-container {
@@ -449,7 +449,7 @@ nav a.active {
 }
 
 #work {
-  background: linear-gradient( #c82828 1%, #cf6625 60%,#1d961d 100%);
+  background: linear-gradient( #842424  1%, #cf6625 60%,#1d961d 100%);
 }
 
 .work-container {
