@@ -271,7 +271,7 @@ nav a.active {
 }
 
 #about {
- background: linear-gradient( #108592 10%, #842424  80%,#842424  97%);
+  background: linear-gradient( #108592 10%, #842424 80%,#842424 97%);
 }
 
 .about-container {
@@ -449,7 +449,7 @@ nav a.active {
 }
 
 #work {
-  background:linear-gradient( #842424 10%, #592e2e 40%,#1d961d 100%);
+  background: linear-gradient( #842424 10%, #592e2e 40%,rgb(40, 155, 175) 100%);
 }
 
 .work-container {
@@ -621,7 +621,7 @@ nav a.active {
 }
 
 #contact {
-  background: linear-gradient( #1d961d 1%, green 11%, black 90%);
+  background: linear-gradient( rgb(40, 155, 175) 1%, rgb(40, 155, 175) 11%, black 90%);
   flex-direction: row;
   display: flex;
 }
