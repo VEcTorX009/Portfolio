@@ -126,6 +126,9 @@ nav li a i:hover {
   transform: scale(1.4);
   color: white;
 }
+nav li a i:active{
+  transform: scale(0.8);
+}
 nav a.active {
   color: white;
 }
@@ -684,6 +687,7 @@ form {
 }
 
 form h5 {
+  background-color: black;
   color: white;
   font-weight: 800;
   margin-bottom: 25px;
