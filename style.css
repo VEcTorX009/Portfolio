@@ -123,7 +123,7 @@ nav {
   color: red;
 }
 nav li a i:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   color: white;
 }
 nav li a i:active{
@@ -271,7 +271,7 @@ nav a.active {
 }
 
 #about {
-  background: linear-gradient( #108592 10%, #842424 80%,#842424 97%);
+  background: linear-gradient( #3ea1ac 10%, #268aa7 20%,#b65151 100%);
 }
 
 .about-container {
@@ -449,7 +449,7 @@ nav a.active {
 }
 
 #work {
-  background: linear-gradient( #842424 10%, #592e2e 40%,rgb(40, 155, 175) 100%);
+  background: linear-gradient(#b65151 ,rgb(40, 155, 175) 80%,rgb(40, 155, 175) 100%);
 }
 
 .work-container {
