@@ -32,6 +32,7 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 function reveal6() {
   var reveals6 = document.querySelectorAll(".reveal6");
+  var reveals7 = document.querySelectorAll(".reveal7");
   for (var i = 0; i < reveals6.length; i++) {
     var windowHeight6 = window.innerHeight;
     var elementTop6 = reveals6[i].getBoundingClientRect().top;
@@ -39,9 +40,11 @@ function reveal6() {
     var windowHeight6 = window.innerHeight;
       
     if (elementTop6 < windowHeight6 - elementVisible6) {
+      reveals7[i].classList.add("active");
       reveals6[i].classList.add("active");
     } else {
       letsgo();
+      reveals7[i].classList.remove("active");
       reveals6[i].classList.remove("active");
     }
 
@@ -130,11 +133,10 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-// // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
 
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
   
 }
 
