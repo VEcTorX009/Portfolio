@@ -33,6 +33,23 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
+function hi() {
+  var w = document.querySelectorAll(".reveal5");
+  for (let i = 0; i < w.length; i++) {
+    var wh = window.innerHeight;
+    var e2 = w[i].getBoundingClientRect().top;
+    var e2v= 150;
+
+    if(e2<wh-e2v){
+      w[i].classList.add("active");
+    }
+    else{
+      w[i].classList.remove("active");
+      
+    }
+  }
+}
+window.addEventListener("scroll",hi)
 function reveal2() {
   var reveals2 = document.querySelectorAll(".reveal2");
   for (var i = 0; i < reveals2.length; i++) {
