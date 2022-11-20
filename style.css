@@ -465,7 +465,7 @@ nav a.active {
 }
 .work-container h1 {
   padding-top: 3vh;
-  color: rgb(40, 155, 175);
+  color: red;
   padding: 5px; 
   font-size: 85px;
 }
@@ -676,7 +676,7 @@ nav a.active {
   padding-left: 9px;
   padding-bottom: 10px;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 27px;
 }
 
 form {
