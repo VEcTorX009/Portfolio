@@ -146,7 +146,7 @@ nav a.active {
   margin-top: -60px;
   animation: homerun 0.7s;
   animation-delay: 1.2s;
- background: linear-gradient( black 30%, #0a2e32 60%,#1a98a6 97%);
+ background:linear-gradient( black 10%, #1A98A5 100%);
 }
 @keyframes homerun {
   0% {
@@ -621,7 +621,7 @@ nav a.active {
 }
 
 #contact {
-  background: linear-gradient( rgb(40, 155, 175) 1%, rgb(40, 155, 175) 11%, black 90%);
+  background: linear-gradient( rgb(40, 155, 175) 10%, rgb(40, 155, 175) 10%, black 60%);
   flex-direction: row;
   display: flex;
 }
