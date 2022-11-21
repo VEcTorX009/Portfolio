@@ -509,10 +509,9 @@ nav a.active {
 }
 .work-container a{
   cursor: pointer;
-  padding-top: 3vh;
   transition: 0.4s ease-in-out;
   color: cyan;
-  padding: 5px;
+  pointer-events:none;
   font-size: 40px;
 }
 
@@ -579,6 +578,7 @@ nav a.active {
   padding: 10px;
 }
 .lang img {
+  pointer-events: auto;
   width: 90px;
   margin: 20px;
   border-radius: 550px;
