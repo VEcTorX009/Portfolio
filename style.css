@@ -85,7 +85,6 @@ html {
 }
 
 nav {
-  font-family: "Lato", sans-serif;
   position: sticky;
   top: 0;
 }
@@ -112,7 +111,6 @@ nav {
 }
 #inner-nav li {
   padding: 0px 15px;
-  
 }
 #inner-nav li i {
    pointer-events: auto;
@@ -306,10 +304,16 @@ nav a.active {
 }
 .about-paragraph h4 {
   position: relative;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   line-height: 40px;
   line-break: normal;
+}
+.about-paragraph span {
+  font-family: monospace;
+  font-weight: 500;
+  line-height: 45px;
+  font-size: 20px;
 }
 .about-paragraph a {
   text-decoration: none;
@@ -520,18 +524,13 @@ nav a.active {
   padding: 30px;
 }
 .tech h2 {
-  font-family: monospace;
-  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
   width: auto;
   font-weight: 700;
 }
 .bg-black{
   background-color: black;
-}
-.tech li {
-  padding: 10px;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
 }
 .tech span {
   font-family: monospace;
@@ -541,7 +540,7 @@ nav a.active {
 }
 
 
-.reveal6.active.tech h1,
+
 .reveal6.active.tech li,
 .reveal6.active.tech span {
   transform: scale(0.94);
@@ -553,21 +552,11 @@ nav a.active {
   }
 }
 
-.reveal6.active.tech h1,
 .reveal6.active.tech li,
 .reveal6.active.tech span {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
-}
-
-.reveal6.active.tech h1 {
-  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-.reveal6.active.tech li {
-  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  display: list-item;
 }
 
 .reveal6.active.tech span {
@@ -717,6 +706,12 @@ nav a.active {
   color: rgb(40, 155, 175);
   padding: 5px;
   font-size: 85px;
+}
+.contact-container h3{
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-top: 10px;
+  font-weight: 550;
+  font-size: 25px;
 }
 .social-media {
   display: flex;
