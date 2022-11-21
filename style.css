@@ -511,7 +511,7 @@ nav a.active {
   cursor: pointer;
   transition: 0.4s ease-in-out;
   color: cyan;
-  pointer-events:none;
+
   font-size: 40px;
 }
 
@@ -569,6 +569,7 @@ nav a.active {
 }
 
 .lang {
+    pointer-events:none;
   align-items: center;
   justify-content: center;
   display: flex;
