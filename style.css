@@ -98,6 +98,7 @@ nav {
   justify-content: center;
   list-style-type: none;
   z-index: 1;
+   pointer-events:none;
 }
 @keyframes slideright {
   0% {
@@ -111,8 +112,10 @@ nav {
 }
 #inner-nav li {
   padding: 0px 15px;
+  
 }
 #inner-nav li i {
+   pointer-events: auto;
   font-size: 20px;
   filter: blur(0.5px);
   cursor: pointer;
