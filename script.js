@@ -19,13 +19,11 @@ function reveal() {
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
     } else {
-      reveals[i].classList.remove("active");
       letsgoa();
     }
     if (elementTop1 < windowHeight1 - elementVisible1) {
       reveals1[i].classList.add("active");
     } else {
-      reveals1[i].classList.remove("active");
     }
   }
 }
@@ -44,8 +42,6 @@ function reveal6() {
       reveals6[i].classList.add("active");
     } else {
       letsgo();
-      reveals7[i].classList.remove("active");
-      reveals6[i].classList.remove("active");
     }
 
   }
@@ -64,12 +60,11 @@ function hi() {
       w[i].classList.add("active");
     }
     else{
-      w[i].classList.remove("active");
-      
+      break;
     }
   }
 }
-window.addEventListener("scroll",hi)
+window.addEventListener("scroll",hi);
 function reveal2() {
   var reveals2 = document.querySelectorAll(".reveal2");
   for (var i = 0; i < reveals2.length; i++) {
@@ -83,7 +78,6 @@ function reveal2() {
     }
     else{
       
-      reveals2[i].classList.remove("active");
     }
   }
 }
@@ -101,7 +95,6 @@ function reveal4() {
     }
     else{
       
-      reveals4[i].classList.remove("active");
     }
   }
 }
@@ -119,7 +112,6 @@ function reveal3() {
 
     } else {
       letsgob();
-      reveals3[i].classList.remove("active");
     }
   }
 }
@@ -163,7 +155,7 @@ window.onscroll = () => {
 };
 
 let mybutton = document.getElementById("myBtn");
-// To check the scroll position on page load
+
 reveal();
 function letsgo() {
   var textWrapper = document.querySelector(".ml11 .letters");
