@@ -288,7 +288,3 @@ function letsgob() {
       delay: 1000,
     });
 }
-
-function soon() {
-  alert("Working on it...");
-}
