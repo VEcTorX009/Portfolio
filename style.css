@@ -195,7 +195,7 @@ nav a.active {
   font-family: "Noto Serif", serif;
 }
 .info h2 {
-  font-size: 80px;
+  font-size: 100px;
 }
 .info h1 {
   color: rgb(40, 155, 175);
@@ -257,7 +257,7 @@ nav a.active {
   }
 }
 #spin {
-  font-size: 80px;
+  font-size: 120px;
 }
 #spin:after {
   content: "Som";
