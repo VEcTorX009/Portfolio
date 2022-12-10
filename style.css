@@ -195,7 +195,7 @@ nav a.active {
   font-family: "Noto Serif", serif;
 }
 .info h2 {
-  font-size: 100px;
+  font-size: 80px;
 }
 .info h1 {
   color: rgb(40, 155, 175);
@@ -257,7 +257,7 @@ nav a.active {
   }
 }
 #spin {
-  font-size: 120px;
+  font-size: 85px;
 }
 #spin:after {
   content: "Som";
@@ -287,9 +287,6 @@ nav a.active {
   color: white;
   padding: 30px;
 }
-.about-paragraph {
-  font-family: monospace;
-}
 .about-container h1 {
   padding-top: 3vh;
   color: rgb(40, 155, 175);
@@ -302,18 +299,14 @@ nav a.active {
   font-weight: 550;
   font-size: 25px;
 }
-.about-paragraph h4 {
-  position: relative;
-  font-weight: 600;
+.about-paragraph{
+  font-family: monospace;
   font-size: 20px;
-  line-height: 40px;
-  line-break: normal;
 }
 .about-paragraph span {
   font-family: monospace;
   font-weight: 500;
   line-height: 45px;
-  font-size: 20px;
 }
 .about-paragraph a {
   text-decoration: none;
@@ -489,7 +482,7 @@ nav a.active {
 }
 
 #work {
-  background: linear-gradient(#b65151 ,rgb(40, 155, 175) 80%,rgb(40, 155, 175) 100%);
+  background: linear-gradient(#b55151  ,rgb(40, 155, 175) 80%,rgb(40, 155, 175) 100%);
 }
 
 .work-container {
@@ -520,7 +513,6 @@ nav a.active {
   position: relative;
   flex-wrap: wrap;
   flex-direction: column;
-  padding: 30px;
 }
 .tech h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -567,16 +559,39 @@ nav a.active {
     filter: blur(0);
   }
 }
-
-.lang {
-    pointer-events:none;
+.skills{
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: linear-gradient( #b65151 10%, #3ea1ac 100%);
+  box-shadow: 0 0px 40px 0px #3ea1ac ;
+  border-radius: 150px;
   align-items: center;
   justify-content: center;
+}
+.lang-container{
+  overflow: hidden;
+  text-align: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  padding: 30px;
+  flex-direction: column;
+}
+.lang{
+  overflow: hidden;
+  pointer-events:none;
+  box-shadow: 0 0px 30px 0px white;
+  border-radius: 550px;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin-top: 20px;
-  padding: 10px;
 }
 .lang img {
   pointer-events: auto;
@@ -865,9 +880,14 @@ form button:hover {
   .hello__description {
     display: none;
   }
+  
   .lang{
     flex-wrap: wrap;
   }
+  .lang-container{
+    padding: 5px;
+  }
+  
 }
 .playlist-text h2 {
   color: rgb(40, 155, 175);
@@ -952,4 +972,8 @@ svg {
  padding: 8px 15px;
  visibility: visible;
  opacity: 0.7; 
+}
+.lang-container h2{
+  font-size: 50px;
+  padding: 20px;
 }
