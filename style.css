@@ -496,7 +496,7 @@ nav a.active {
 }
 .work-container h1 {
   padding-top: 3vh;
-  color: red;
+  color: #54b6e5;
   padding: 5px; 
   font-size: 85px;
 }
@@ -519,9 +519,6 @@ nav a.active {
   font-size: 20px;
   width: auto;
   font-weight: 700;
-}
-.bg-black{
-  background-color: black;
 }
 .tech span {
   font-family: monospace;
@@ -974,6 +971,5 @@ svg {
  opacity: 0.7; 
 }
 .lang-container h2{
-  font-size: 50px;
-  padding: 20px;
+  font-size: 40px;
 }
