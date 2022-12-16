@@ -573,7 +573,7 @@ nav a.active {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 20px;
   flex-direction: column;
 }
 .lang{
