@@ -879,8 +879,8 @@ form button:hover {
   
   .lang{
     flex-wrap: wrap;
-    box shadow: none;
-    border radius: 0px;
+       border-radius: 0;
+    box-shadow: none;
   }
   .lang-container{
     padding: 5px;
