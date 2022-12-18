@@ -565,7 +565,6 @@ nav a.active {
   margin-bottom: 40px;
   box-shadow: 0 0px 40px 0px #3ea1ac ;
   border-radius: 150px;
-  align-items: center;
   justify-content: center;
 }
 .lang-container{
@@ -573,7 +572,7 @@ nav a.active {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
   flex-direction: column;
 }
 .lang{
@@ -590,7 +589,7 @@ nav a.active {
 }
 .lang img {
   pointer-events: auto;
-  width: 90px;
+  width: 70px;
   margin: 20px;
   border-radius: 550px;
   transform: translatey(0px);
