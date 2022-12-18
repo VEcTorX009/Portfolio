@@ -191,8 +191,6 @@ nav a.active {
   margin: 20px;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-family: "Noto Serif", serif;
 }
 .info h2 {
   font-size: 120px;
