@@ -195,7 +195,7 @@ nav a.active {
   font-family: "Noto Serif", serif;
 }
 .info h2 {
-  font-size: 80px;
+  font-size: 120px;
 }
 .info h1 {
   color: rgb(40, 155, 175);
@@ -203,7 +203,7 @@ nav a.active {
 }
 .info h3 {
   color: rgb(203, 199, 199);
-  font-size: 30px; 
+  font-size: 40px; 
 }
 @keyframes slideup {
   0% {
@@ -257,7 +257,7 @@ nav a.active {
   }
 }
 #spin {
-  font-size: 85px;
+  font-size: 150px;
 }
 #spin:after {
   content: "Som";
@@ -871,6 +871,18 @@ form button:hover {
   .hello__description {
     display: none;
   }
+  .info h2 {
+  font-size: 80px;
+}
+  .info h3 {
+    font-size: 30px;
+  }
+  .dev-pic{
+    margin:0;
+  }
+  #spin {
+  font-size: 85px;
+}
   
   .lang{
     flex-wrap: wrap;
