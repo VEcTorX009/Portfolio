@@ -576,7 +576,7 @@ nav a.active {
 .lang{
   overflow: hidden;
   pointer-events:none;
-  box-shadow: 0 0px 30px 0px white;
+  box-shadow: 0 0px 10px 0px white;
   border-radius: 550px;
   align-items: center;
   justify-content: center;
