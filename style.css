@@ -172,15 +172,15 @@ nav a.active {
 }
 
 .dev-pic img {
-  height: 40vh;
-  margin-bottom: 10px;
+     height: 40vh;
+    margin-bottom: 10px;
+    background-color: red;
 }
 
 .dev-pic {
   background-color: red;
   margin-left: 10rem;
   display: flex;
-  position: relative;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -862,9 +862,6 @@ form button:hover {
   }
   .contact-container {
     padding: 0px;
-  }
-  .dev-pic {
-    margin-left: 0;
   }
 }
 @media (max-width: 596px) {
