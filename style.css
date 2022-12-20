@@ -865,6 +865,9 @@ form button:hover {
   .spotify a {
     width: 90%;
   }
+  .circle{
+    opacity: 0;
+  }
   .hello__description {
     display: none;
   }
