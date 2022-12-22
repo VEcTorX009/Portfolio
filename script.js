@@ -292,7 +292,7 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-  "#1f005c", "#4f0063", "#770063", "#9d005e", "#be0053"," #da0043", "#f0002e", "#ff0808",
+  "#2da1fd", "#2a9ffb", "#30a4ff", "#2ba2ff", "#cd481c"," #da0043", "#d5491a", "#cf471a",
 ];
 
 circles.forEach(function (circle, index) {
