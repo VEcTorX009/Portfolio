@@ -4,6 +4,7 @@
 
 * {
   padding: 0;
+  cursor: none;
   margin: 0;
 }
 html {
@@ -116,7 +117,6 @@ nav {
    pointer-events: auto;
   font-size: 25px;
   filter: blur(0.5px);
-  cursor: pointer;
   text-decoration: none;
   transition: 0.4s ease-in-out;
 }
@@ -435,7 +435,6 @@ nav a.active {
   border: 2px solid white;
   color: white;
   box-shadow: 1px 1px 10px cyan;
-  cursor: pointer; 
   padding: 15px 20px;
   border-radius: 70px; 
   outline: white;
@@ -475,7 +474,6 @@ nav a.active {
   width: 100%;
 }
 .spotify img:hover {
-  cursor: pointer;
   box-shadow: 0px 0px 15px cyan;
 }
 
@@ -499,7 +497,6 @@ nav a.active {
   font-size: 85px;
 }
 .work-container a{
-  cursor: pointer;
   transition: 0.4s ease-in-out;
   color: cyan;
 
@@ -802,7 +799,6 @@ form button {
   font-size: 16px;
   border: 0;
   outline: none;
-  cursor: pointer;
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
@@ -983,13 +979,10 @@ svg {
   color: cyan;
 }
 .circle {
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
   border-radius: 24px;
-  background-color: black;
   position: fixed; 
-  top: 0;
-  left: 0;
   pointer-events: none;
   z-index: 99999999; /* so that it stays on top of all other elements */
 }
