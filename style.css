@@ -580,7 +580,7 @@ nav a.active {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .lang img {
   pointer-events: auto;
