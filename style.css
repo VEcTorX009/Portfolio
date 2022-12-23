@@ -148,7 +148,6 @@ nav a.active {
   margin-top: -60px;
   animation: homerun 0.7s;
   animation-delay: 1.2s;
- background:linear-gradient( black 10%, #1A98A5 100%);
 }
 @keyframes homerun {
   0% {
@@ -271,9 +270,6 @@ nav a.active {
   }
 }
 
-#about {
-  background:linear-gradient( #3ea1ac 10%, #b65151 100%);
-}
 
 .about-container {
   display: flex;
@@ -287,8 +283,9 @@ nav a.active {
 }
 .about-container h1 {
   padding-top: 3vh;
-  color: #ae5657;
   font-size: 85px;
+  color: rgb(40, 155, 175);
+
 }
 .about-container h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -475,10 +472,6 @@ nav a.active {
 }
 .spotify img:hover {
   box-shadow: 0px 0px 15px cyan;
-}
-
-#work {
-  background: linear-gradient(#b55151  ,rgb(40, 155, 175) 80%,rgb(40, 155, 175) 100%);
 }
 
 .work-container {
@@ -692,7 +685,6 @@ nav a.active {
 }
 
 #contact {
-  background: linear-gradient( rgb(40, 155, 175) 10%, rgb(40, 155, 175) 10%, black 100%);
   flex-direction: row;
   display: flex;
 }
@@ -708,7 +700,8 @@ nav a.active {
 }
 .contact-container h1 {
   max-width: 60%;
-  color: #ae5657;
+  color: rgb(40, 155, 175);
+
   padding: 5px;
   font-size: 85px;
 }
@@ -754,7 +747,7 @@ nav a.active {
 }
 
 form {
-  background: linear-gradient( #3ea1ac 10%, #b65151 100%);
+  background: black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -763,7 +756,6 @@ form {
 }
 
 form h5 {
-  background-color: black;
   color: white;
   font-weight: 800;
   margin-bottom: 25px;
@@ -984,5 +976,9 @@ svg {
   border-radius: 24px;
   position: fixed; 
   pointer-events: none;
-  z-index: 99999999; /* so that it stays on top of all other elements */
+  z-index: 99999999;
+}
+.king
+{
+  background: linear-gradient(0deg, rgba(26,207,150,1) 0%, rgba(0,0,0,1) 100%);
 }
