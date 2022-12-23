@@ -556,7 +556,7 @@ nav a.active {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
   box-shadow: 0 0px 40px 0px #3ea1ac ;
   border-radius: 150px;
