@@ -146,18 +146,6 @@ nav a.active {
   display: flex;
   flex-wrap: initial;
   margin-top: -60px;
-  animation: homerun 0.7s;
-  animation-delay: 1.2s;
-}
-@keyframes homerun {
-  0% {
-    transform: translate(-600px, 0px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0px);
-    opacity: 1;
-  }
 }
 
 .home-container {
